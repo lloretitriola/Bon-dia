@@ -111,8 +111,8 @@ main {
 }
 
 .marc-imatge img {
-  width: auto;
-  height: 200 px;
+  width: 100%;
+  height: 280px;
   object-fit: contain;
   display: block;
 }
