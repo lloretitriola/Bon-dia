@@ -112,7 +112,7 @@ main {
 
 .marc-imatge img {
   width: auto;
-  height: 400 px;
+  height: 200 px;
   object-fit: contain;
   display: block;
 }
