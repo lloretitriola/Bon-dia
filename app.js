@@ -61,6 +61,11 @@ function mostrarContingut(entrada, dataStr) {
     img.onload = function () {
       img.style.display = "block";
       placeholder.style.display = "none";
+      // Actualitzar og:image per a la previsualització de WhatsApp
+      const ogImage = document.getElementById("og-image");
+      if (ogImage) {
+        ogImage.content = CONFIG.urlWeb + nomImatge;
+      }
     };
     img.onerror = function () {
       img.style.display = "none";
