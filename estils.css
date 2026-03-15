@@ -82,11 +82,12 @@ main {
 
 /* DATA I SANT */
 .data-label {
-  font-size: 0.72rem;
-  color: var(--color-text-molt-suau);
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
+  font-size: 1.15rem;
+  color: var(--color-text);
+  text-decoration: underline;
+  font-weight: 400;
   margin-bottom: 0.4rem;
+  text-align: center;
 }
 
 .sant-line {
@@ -96,12 +97,13 @@ main {
   color: var(--color-text);
   margin-bottom: 2rem;
   line-height: 1.4;
+  text-align: center;
 }
 
 /* IMATGE */
 .marc-imatge {
   width: 100%;
-  background: var(--color-fons-suau);
+  background: transparent;
   border-radius: 0;
   margin-bottom: 2rem;
   border: none;
@@ -145,11 +147,13 @@ main {
   color: var(--color-text);
   margin-bottom: 2.5rem;
   white-space: pre-line;
+  text-align: center;
 }
 
 /* BOTONS */
 .accions {
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .btn-compartir {
