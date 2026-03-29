@@ -3,7 +3,7 @@
 // ============================================================
 const CONFIG = {
   urlCanal: "",        // Posa aquí l'enllaç del teu canal de WhatsApp quan el tinguis
-  urlWeb: "https://lloretitriola.github.io/bon-dia/"
+  urlWeb: "https://bondiacadadia.cat/"
 };
 
 // ============================================================
