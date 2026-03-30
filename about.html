@@ -6,6 +6,57 @@
   <title>Sobre aquest lloc · Bon dia cada dia</title>
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" href="estils.css">
+  <style>
+    /* Estils específics per a aquesta pàgina */
+    .about-content {
+      color: #000000; /* Text general en negre */
+    }
+    
+    .about-content p {
+      color: #000000;
+      max-width: 100%; /* Permetem que ocupi l'amplada del contenidor */
+    }
+
+    .email-link {
+      color: #0066cc; /* Color d'enllaç estàndard */
+      text-decoration: underline;
+    }
+
+    .footer-nota {
+      font-style: italic;
+      text-align: right;
+      font-size: 0.85rem;
+      color: #666; /* Gris */
+      margin-top: 2rem;
+    }
+
+    .llegenda-imatge {
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--color-text-suau);
+      margin-top: -1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .referencies {
+      margin-top: 2rem;
+      padding-left: 1.5rem;
+      color: #000;
+    }
+
+    .referencies li {
+      margin-bottom: 0.75rem;
+    }
+
+    .referencies a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    .referencies a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
   <nav>
@@ -16,10 +67,30 @@
     </div>
   </nav>
 
-  <main class="about">
+  <main class="about about-content">
     <h1>Sobre aquest lloc</h1>
-    <p>Aquesta web s'esforça perquè cada dia tinguis un bon dia. Hi trobaràs el santoral del dia, una imatge de Bon dia i una petita frase per inspirar-te.</p>
-    <p>Dit això: que tinguis un bon dia!</p>
+
+    <div class="marc-imatge">
+      <img src="exemple-mossen-riu.jpg" alt="Exemple de missatge del Mossèn Riu">
+    </div>
+    <p class="llegenda-imatge">Un dels missatges del Mossèn Riu</p>
+
+    <p>El Mossèn Joan Riu i Ferrer va ser vicari de Banyoles, rector de Roses i rector de Sant Tomàs de Fluvià. A partir del 2021 va residir a la residència sacerdotal Bisbe Sivilla de Girona i va morir el 6 d'octubre de 2025 a l'edat de 91 anys.</p>
+    
+    <p>D'entre totes les seves obres, una de les més rellevants va ser la creació d'una llista de difusió de Whatsapp des d'on enviava cada dia una imatge de "bon dia" i un petit missatge amb el santoral a centenars de gironins. A sobre d'aquest text podeu trobar-ne un exemple.</p>
+    
+    <p>Aquest lloc web vol servir de petit homenatge i de continuació del seu llegat, servint de petita companyia a tothora i desitjant un bon dia a tots els catalans i catalanes a l'estil Mossèn Riu.</p>
+    
+    <p>Si teniu algun comentari o voleu fer un suggeriment, contacteu amb <a href="mailto:hola@bondiacadadia.cat" class="email-link">hola@bondiacadadia.cat</a> i intentarem solventar-lo.</p>
+    
+    <p>Bon dia!</p>
+
+    <ul class="referencies">
+      <li>6 d'octubre de 2025 - <a href="https://www.elpuntavui.cat/article/29-necrologiques/2582019-mor-mn-joan-riu-ferrer-rector-de-roses-i-de-sant-tomas-de-fluvia.html" target="_blank">Mor Mn. Joan riu Ferrer, rector de Roses i de Sant Tomàs de Fluvià - El Punt Avui+</a></li>
+      <li>18 de febrer de 2024 - <a href="https://breu.substack.com/p/15-breu-el-mossen-riu" target="_blank">Visita al Mossèn Riu a la residència Bisbe Sivilla - Breu</a></li>
+    </ul>
+
+    <p class="footer-nota">Última actualització: dilluns 30 de març de 2026.</p>
   </main>
 
   <footer>
