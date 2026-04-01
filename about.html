@@ -7,45 +7,55 @@
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" href="estils.css">
   <style>
-    /* Estils específics per a aquesta pàgina */
-    .about-content {
-      color: #000000; /* Text general en negre */
-    }
-    
     .about-content p {
-      color: #000000;
-      max-width: 100%; /* Permetem que ocupi l'amplada del contenidor */
+      color: var(--color-text);
+      max-width: 100%;
     }
 
     .email-link {
-      color: #0066cc; /* Color d'enllaç estàndard */
+      color: #0066cc;
       text-decoration: underline;
     }
 
     .footer-nota {
       font-style: italic;
       text-align: right;
-      font-size: 0.50rem;
-      color: #666; /* Gris */
+      font-size: 0.75rem;
+      color: var(--color-text-suau);
       margin-top: 2rem;
+    }
+
+    .marc-imatge-about {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0.75rem;
+    }
+
+    .marc-imatge-about img {
+      max-width: 320px;
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: var(--radi);
     }
 
     .llegenda-imatge {
       text-align: center;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       color: var(--color-text-suau);
-      margin-top: -1.5rem;
       margin-bottom: 2rem;
     }
 
     .referencies {
       margin-top: 2rem;
       padding-left: 1.5rem;
-      color: #000;
+      color: var(--color-text);
     }
 
     .referencies li {
       margin-bottom: 0.75rem;
+      font-size: 0.9rem;
     }
 
     .referencies a {
@@ -70,24 +80,24 @@
   <main class="about about-content">
     <h1>Sobre aquest lloc</h1>
 
-    <div class="marc-imatge">
-      <img src="Missatge Mossen Riu.jpg" alt="Whatsapp de Mossèn Riu">
+    <div class="marc-imatge-about">
+      <img src="Missatge Mossen Riu.jpg" alt="Un dels missatges del Mossèn Riu">
     </div>
     <p class="llegenda-imatge">Un dels missatges del Mossèn Riu.</p>
 
-    <p>El Mossèn Joan Riu i Ferrer va ser vicari de Banyoles, rector de Roses i rector de Sant Tomàs de Fluvià. A partir del 2021 va traslladar-se a la residència sacerdotal Bisbe Sivilla de Girona i va morir el 6 d'octubre de 2025 a l'edat de 91 anys.</p>
-    
-    <p>D'entre totes les seves obres, una de les més rellevants va ser la creació d'una llista de difusió de Whatsapp des d'on enviava cada dia una imatge de "bon dia" i un petit missatge amb el santoral a centenars de gironins. A sobre d'aquest text podeu trobar-ne un exemple.</p>
-    
+    <p>El Mossèn Joan Riu i Ferrer va ser vicari de Banyoles, rector de Roses i rector de Sant Tomàs de Fluvià. A partir del 2021 va residir a la residència sacerdotal Bisbe Sivilla de Girona i va morir el 6 d'octubre de 2025 a l'edat de 91 anys.</p>
+
+    <p>D'entre totes les seves obres, una de les més rellevants va ser la creació d'una llista de difusió de WhatsApp des d'on enviava cada dia una imatge de "bon dia" i un petit missatge amb el santoral a centenars de gironins. A sobre d'aquest text podeu trobar-ne un exemple.</p>
+
     <p>Aquest lloc web vol servir de petit homenatge i de continuació del seu llegat, servint de petita companyia a tothora i desitjant un bon dia a tots els catalans i catalanes a l'estil Mossèn Riu.</p>
-    
+
     <p>Si teniu algun comentari o voleu fer un suggeriment, contacteu amb <a href="mailto:hola@bondiacadadia.cat" class="email-link">hola@bondiacadadia.cat</a> i intentarem solventar-lo.</p>
-    
+
     <p>Bon dia!</p>
 
     <ul class="referencies">
-      <li>6 d'octubre de 2025 - <a href="https://www.elpuntavui.cat/article/29-necrologiques/2582019-mor-mn-joan-riu-ferrer-rector-de-roses-i-de-sant-tomas-de-fluvia.html" target="_blank">Mor Mn. Joan riu Ferrer, rector de Roses i de Sant Tomàs de Fluvià - El Punt Avui+</a></li>
-      <li>18 de febrer de 2024 - <a href="https://breu.substack.com/p/15-breu-el-mossen-riu" target="_blank">Visita al Mossèn Riu a la residència Bisbe Sivilla - Breu</a></li>
+      <li>6 d'octubre de 2025 — <a href="https://www.elpuntavui.cat/article/29-necrologiques/2582019-mor-mn-joan-riu-ferrer-rector-de-roses-i-de-sant-tomas-de-fluvia.html" target="_blank">Mor Mn. Joan Riu Ferrer, rector de Roses i de Sant Tomàs de Fluvià — El Punt Avui</a></li>
+      <li>18 de febrer de 2024 — <a href="https://breu.substack.com/p/15-breu-el-mossen-riu" target="_blank">Visita al Mossèn Riu a la residència Bisbe Sivilla — Breu</a></li>
     </ul>
 
     <p class="footer-nota">Última actualització: dilluns 30 de març de 2026.</p>
